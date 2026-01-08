@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+}
+
+/* CABEÇALHO */
+header {
+    background: linear-gradient(90deg, #4a90e2, #357ABD);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    f
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+/* RESPONSIVO PARA CELULAR */
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        margin: 15px;
+        padding: 20px;
+    }
+
+}
